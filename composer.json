@@ -1,0 +1,17 @@
+{
+    "name": "wowcms/libcms",
+    "description": "Test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Darthar",
+            "email": "duelista16@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"wowcms\\libcms\\": "src/"}
+    },
+    "require": {}
+}
