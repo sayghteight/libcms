@@ -17,4 +17,11 @@ class HelloTest extends TestCase
 
 		$this->assertEquals("Hello World!", $hello->helloWorld());
 	}
+
+	public function testGetEmulator()
+	{
+		$hello = new Hello();
+
+		$this->assertEquals("Hello World!", $hello->getEmulator());
+	}
 }
