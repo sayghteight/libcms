@@ -1,7 +1,13 @@
 {
-    "name": "wowcms/libcms",
-    "description": "Test",
+    "name": "sayghteight/libcms",
+    "description": "LibCMS is a unique library for BlizzCMS.",
     "type": "library",
+    "require": {
+        "php": "^7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
     "license": "MIT",
     "authors": [
         {
@@ -9,9 +15,11 @@
             "email": "duelista16@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
-        "psr-4": {"wowcms\\libcms\\": "src/"}
-    },
-    "require": {}
+        "psr-4": {
+            "ExampleComposer\\": "src/",
+            "ExampleComposerTest\\Tests\\": "tests/"
+        }
+    }
 }
