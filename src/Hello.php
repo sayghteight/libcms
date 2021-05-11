@@ -32,7 +32,7 @@ class Hello
 
 		if (array_key_exists($name, $this->emulators))
 		{
-			return "TrinityCore"
+			return "TrinityCore";
 		}
 	}
 }
