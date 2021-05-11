@@ -1,6 +1,6 @@
 <?php
 
-namespace EmulatorLib\Emulator;
+namespace ManagerLib\Emulators;
 
 /**
  * Example emulator implementation

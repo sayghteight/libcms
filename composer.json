@@ -18,8 +18,7 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "ExampleComposer\\": "src/",
-            "ExampleComposerTest\\Tests\\": "tests/"
+            "ManagerLib\\": "src/"
         }
     }
 }

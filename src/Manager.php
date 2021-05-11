@@ -1,0 +1,24 @@
+<?php 
+
+namespace ManagerLib;
+
+// Use Example Emulator ( Emulators/ExampleEmulator.php)
+use ManagerLib\Emulators\ExampleEmulator as EmulatorSample;
+
+class Manager {
+
+    protected $emulators = [
+        "TC" => "TrinityCore",
+    ];
+
+    public function __construct()
+    {                   
+
+    }
+
+    public function getEmulatorSample()
+    {
+        $example = new EmulatorSample;
+        $example->getTable('accounts');
+    }
+}
